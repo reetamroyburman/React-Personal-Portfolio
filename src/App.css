@@ -160,15 +160,29 @@ img{
   align-items: center;
 }
 
+/*BreackPoints*/
+
+/*For large device*/
 @media screen and (max-width: 992px){
+  .container{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
+/*For mid device*/
 @media screen and (max-width: 768px){
 }
 
+/**/
 @media screen and (max-width: 576px){ 
 }
 
+/*for Small device*/
 @media screen and (max-width: 350px){ 
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
 
