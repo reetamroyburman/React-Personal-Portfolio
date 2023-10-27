@@ -7,15 +7,15 @@ import Info from './Info'
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">about Me</h2>
-      <span className="section__subtitle">Hey there im a fullstack dev</span>
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">Hey there I am fullstack Developer.</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
           <div className="about__data">
             <Info/>
 
-            <p className="about__description">..............</p>
+            <p className="about__description">I am a fullstack Developer with 1 year of experiance</p>
 
             <a download= '' href={CV} className="button button--flex">Download CV
             <svg
